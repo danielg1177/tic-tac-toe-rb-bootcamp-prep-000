@@ -101,4 +101,8 @@ WIN_COMBINATIONS = [
     end 
   end
   
+  def play(board)
+    
+  end
+  
   #rspec spec/02_play_spec.rb

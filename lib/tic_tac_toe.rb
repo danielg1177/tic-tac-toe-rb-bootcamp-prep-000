@@ -105,6 +105,11 @@ WIN_COMBINATIONS = [
     until over?(board)
     turn(board)
     display_board(board)
+    if draw?(board)
+      return "It's a draw!!"
+    else 
+      return "#{winner(board)} is the Winner!!"
+    end
     
     end
     

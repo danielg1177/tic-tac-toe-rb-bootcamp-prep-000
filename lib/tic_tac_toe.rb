@@ -102,6 +102,8 @@ WIN_COMBINATIONS = [
   end
   
   def play(board)
+    turn(board)
+      
     if over?(board) 
       if draw?(board) 
         
@@ -110,9 +112,6 @@ WIN_COMBINATIONS = [
       end
       
     else
-      turn(board)
-      
-    
     end
   end
   

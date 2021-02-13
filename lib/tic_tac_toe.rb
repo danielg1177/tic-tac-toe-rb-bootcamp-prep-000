@@ -106,9 +106,9 @@ WIN_COMBINATIONS = [
       
     if over?(board) 
       if draw?(board) 
-        
+        return "Its a Draw!"
       else
-        
+        return "#{winner?(board)} is the Winner!!"
       end
       
     else

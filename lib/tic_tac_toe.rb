@@ -104,6 +104,7 @@ WIN_COMBINATIONS = [
   def play(board)
     until over?(board)
     turn(board)
+    display_board(board)
     
     end
     

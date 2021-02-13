@@ -103,16 +103,10 @@ WIN_COMBINATIONS = [
   
   def play(board)
     until over?(board)
-      
-    if over?(board) 
-      if draw?(board) 
-        return "Its a Draw!"
-      else
-        return "#{winner?(board)} is the Winner!!"
-      end
-      
-    else
+    turn(board)
+    
     end
+    
   end
   
   #rspec spec/02_play_spec.rb

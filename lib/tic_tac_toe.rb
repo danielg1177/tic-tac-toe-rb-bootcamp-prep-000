@@ -102,9 +102,9 @@ WIN_COMBINATIONS = [
   end
   
   def play(board)
-    if (over?(board))
-    turn(board)
-    over?(board)
+    if (over?(board)) {
+      
+    }
   end
   
   #rspec spec/02_play_spec.rb

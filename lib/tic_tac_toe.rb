@@ -69,6 +69,7 @@ WIN_COMBINATIONS = [
       puts "invalid move, please put in a valid move"
       turn(board)
     end
+    display_board(board)
   end
   
   def won?(board)

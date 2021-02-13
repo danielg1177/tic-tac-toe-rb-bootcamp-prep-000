@@ -109,9 +109,9 @@ WIN_COMBINATIONS = [
     end
     
     if draw?(board)
-      return "It's a draw!!"
+      puts "It's a draw!!"
     else 
-      return "#{winner(board)} is the Winner!!"
+      puts "#{winner(board)} is the Winner!!"
     end
     
   end
